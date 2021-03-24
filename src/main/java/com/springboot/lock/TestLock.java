@@ -32,7 +32,7 @@ public class TestLock {
             }).start();
         }
     
-        Thread.sleep(1000);
+        Thread.sleep(1000);//让主线程休眠，否则上面的子线程无法执行完成会造成后面的sout数据不准确
         System.out.println("a的值是"+tl.a);
     }
 }
