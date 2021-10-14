@@ -27,6 +27,7 @@ public class CacheLine {
         for (int i = 0; i < 8; i+=1) {
             for(int j =0; j< 1024 * 1024;j++){
                 sum = arr[j][i];
+                
             }
         }
         System.out.println("Loop times:" + (System.currentTimeMillis() - marked) + "ms");
