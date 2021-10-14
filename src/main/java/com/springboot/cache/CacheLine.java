@@ -1,5 +1,8 @@
 package com.springboot.cache;
 
+/**
+ * 由于存在缓存行的，横向遍历比纵向遍历效率更高
+ */
 public class CacheLine {
     static  long[][] arr;
     

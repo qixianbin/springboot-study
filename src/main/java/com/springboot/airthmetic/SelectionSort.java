@@ -21,7 +21,7 @@ public class SelectionSort {
             b[i] = (int)(Math.random()*100000);
         }
         Date start = new Date();
-        selectionSort(b);
+        //selectionSort(b);
         System.out.println("十万数据量的选择排序耗时："+((new Date().getTime()-start.getTime()))+"豪秒");
     }
     
@@ -43,7 +43,7 @@ public class SelectionSort {
                 a[i] = min;
             }
         
-            //System.out.println("第"+(i+1)+"次交换后的结果："+ Arrays.toString(a));
+            System.out.println("第"+(i+1)+"次交换后的结果："+ Arrays.toString(a));
         }
     }
     
